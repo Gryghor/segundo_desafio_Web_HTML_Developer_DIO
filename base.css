@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Roboto:ital,wght@1,300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Roboto:ital,wght@1,300&display=swap');
+
+html, body {
+    margin: 0;
+}
+
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+
+.main h1{
+    font-family: 'Kaushan Script', cursive;
+    color: white;
+    margin-left: 20px;
+}
+
+.menu {
+    width: 15%;
+    background-color: black;
+    padding: 10px 20px 0px;
+}
+
+.elementosMenu a{
+   text-decoration: none;
+   color:white;
+}
+
+.elementosMenu a:hover{
+color: rgb(161, 190, 215);
+}
+
+.elementosMenu ul{
+   text-wrap: nowrap;
+}
+
+.elementosMenu button{
+    padding: 5px 15px 5px 15px;
+    margin-top: 5px;
+    border-radius: 10px;
+    border: none;
+    background-color: white;
+}
+
+.elementosMenu button:hover{
+    background-color: lightgray;
+}
+
+.header {
+    background-color: #0a516d;
+    min-height: 50px;
+}
+
+.header img{
+    border-radius: 50px 0 50px 0;
+    float: right;
+    margin-bottom:50px;
+    margin-right: 30px;
+}
+.header p{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+   margin-top: 80px;
+   margin-left:30px;
+}
+
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+}
+
+.content h2{
+    font-size:30px;
+    color: #0a516d;
+   background-image: linear-gradient();
+   font-family: 'Kaushan Script', cursive;
+}
+
+.content p{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.content img{
+    margin-top: 45px;
+    float: right;
+    border-radius: 50px 0 50px 0;
+}
+
+.content button{
+    padding: 5px 20px 5px 20px;
+    border-radius: 10px;
+    border: none;
+    background-color:#308fb5;
+    color: white;
+}
+.content button:hover{
+background-color:#0a516d;
+}
+
+
+table{
+    margin-left: 250px;
+   text-align: center;
+}
+
+table thead th{
+    background-color: #0a516d;
+    color: white;
+}
+
+table tbody td{
+    background-color: lightblue;
+}
+
+.forms{
+    display: flex;
+    justify-content: center;
+}
+
+.forms legend{
+    font-family: 'Kaushan Script', cursive;
+    color: #0a516d;
+    text-align: center;
+    font-size: 30px;
+}
+
+.forms fieldset{
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.forms label{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+.forms input{
+    padding: 2px 20px 2px 20px;
+    border-radius: 10px;
+    border: solid 1px black;
+    letter-spacing: 2px;
+}
+
+.forms textarea{
+    border-radius: 10px;
+    border: solid 1px black;
+}
+
+
+.contato_header img{
+    border-radius: 50px 0 50px 0;
+    float: left;
+    border: transparent thin solid;
+    padding: 5px;
+    margin: 0px 10px 10px 0;
+    max-width: 250px;
+    margin-left:30px;
+    
+}
+
+.contato_header p{
+    font-family: 'Roboto', sans-serif;
+}
+
+.contato_header sup{
+    margin-right: 15px;
+    float: right;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.info_empresa h2{
+    margin-left: 30px;
+}
+
+.info_empresa p{
+    margin-left: 30px;;
+}
+
+.info_empresa iframe{
+  float:right;
+  margin-right: 30px;
+  border: 1px solid black;
+   
+}
+
+.footer {
+    background-color:darkslategray;
+    min-height: 50px;
+}
+
+.footer{
+    text-align: center;
+    font-weight: bold;
+    color: lightgray;
+}
+
